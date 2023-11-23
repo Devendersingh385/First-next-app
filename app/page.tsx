@@ -5,6 +5,13 @@ import { lusitana } from "@/app/ui/fonts";
 
 import Link from "next/link";
 import Image from "next/image";
+
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Signin',
+};
+
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
